@@ -96,7 +96,7 @@ obtenerTodosLosDoctores: function(req, res) {
     .catch(err => {
       // Si se produce un error al buscar los doctores, responde con un estado 500 (Internal Server Error) y muestra el mensaje de error en el log
       console.error('Error al obtener los doctores:', err);
-      return res.status(500).send({ message: 'Error al obtener los doctoressss' });
+      return res.status(500).send({ message: 'Error al obtener los doctores' });
     });
 }
 
